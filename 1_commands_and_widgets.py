@@ -41,8 +41,8 @@ st.write("---")
 # my_list = [10,50,409] # Python list
 # my_dict = {'Number':[1,2,3], 'Color': ['Blue', 'Yellow', 'Green']} # python dictionary
 
-##### we will use pandas and numpy to generate a DataFrame. 
-##### For now, think of a DataFrame as a table with columns, rows and data.
+#### we will use pandas and numpy to generate a DataFrame. 
+#### For now, think of a DataFrame as a table with columns, rows and data.
 # import numpy as np
 # import pandas as pd 
 # np.random.seed(1)
@@ -78,7 +78,7 @@ st.write("---")
 # np.random.seed(1)
 # df = pd.DataFrame(data={"Col1":np.random.randint(low=-100,high=100,size=10),
 #                         "Col2":np.random.randint(low=25,high=80,size=10)
-#                         })
+                        # })
 
 #### and will plot the data
 # import matplotlib.pyplot as plt
@@ -115,7 +115,7 @@ st.write("---")
 # import numpy as np
 # import pandas as pd 
 
-# @st.cache
+# @st.cache_data
 # def load_your_data():
 #     np.random.seed(1)
 #     df = pd.DataFrame(data={"Col1":np.random.randint(low=-100,high=100,size=10),
